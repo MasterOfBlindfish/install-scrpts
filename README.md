@@ -4,7 +4,7 @@ Laden und ausführen:
 
 
 ```
-curl -s https://github.com/MasterOfBlindfish/install-scrpts/blob/main/install.sh
+curl -s https://raw.githubusercontent.com/MasterOfBlindfish/install-scrpts/refs/heads/main/install.sh
 chmod +x install.sh
 sh install.sh
 ```
