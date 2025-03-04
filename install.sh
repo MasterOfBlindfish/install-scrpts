@@ -1,3 +1,20 @@
-curl -sS https://installer.cloudpanel.io/ce/v2/install.sh -o install.sh; \
-echo "a3ba69a8102345127b4ae0e28cfe89daca675cbc63cd39225133cdd2fa02ad36 install.sh" | \
-sha256sum -c && sudo DB_ENGINE=MARIADB_11.4 bash install.sh
+#!/bin/bash
+
+function run-cmd () {
+  echo "About to run: $1"
+  read -t 600 -p "Press enter to execute: $1"
+  $1
+  echo
+}
+
+#sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+#sudo systemctl status sleep.target suspend.target hibernate.target hybrid-sleep.target
+apt-get update
+apt-get upgrade -y
+
+apt-get install curl xrdp xfce4 xfce4-goodies -y
+#sudo curl -fsSL https://tailscale.com/install.sh | sh
+#sudo apt-get install language-pack-kde-de -y
+
+# Grant sudo without password
+echo 'dietpi ALL=(ALL) NOPASSWD:ALL' | sudo tee -a /etc/sudoers
