@@ -1,11 +1,5 @@
 #!/bin/bash
 
-function run-cmd () {
-  echo "About to run: $1"
-  read -t 600 -p "Press enter to execute: $1"
-  $1
-  echo
-}
 
 #sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 #sudo systemctl status sleep.target suspend.target hibernate.target hybrid-sleep.target
