@@ -4,8 +4,8 @@ Laden und ausführen:
 
 
 ```
-curl -sSL https://github.com/MasterOfBlindfish/install-scrpts/blob/main/install.sh | bash
+bash <(curl -s https://github.com/MasterOfBlindfish/install-scrpts/blob/main/install.sh)
 ```
 
-curl -sSL https://raw.githubusercontent.com/user/repo/branch/path/to/script.sh | bash
+bash <(curl -s <URL>)
 
