@@ -6,5 +6,8 @@ Laden und ausführen:
 ```
 curl -s https://raw.githubusercontent.com/MasterOfBlindfish/install-scrpts/refs/heads/main/install.sh | sh
 ```
+```
+curl -s https://raw.githubusercontent.com/MasterOfBlindfish/install-scrpts/refs/heads/main/install-asroot.sh | sh
+```
 
 curl -s <URL> | sh
