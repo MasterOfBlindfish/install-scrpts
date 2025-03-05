@@ -13,6 +13,9 @@ Um mit `rsync` ein Backup oder Restore auf einen anderen PC durchzuführen und d
 ```bash
 sudo rsync -avzH -e "ssh" /quellverzeichnis/ benutzer@entfernter_server:/zielverzeichnis/
 ```
+```bash
+sudo rsync -avzH -e "ssh" /quellverzeichnis/ benutzer@entfernter_server:/zielverzeichnis/
+```
 
 * `sudo`: Wird benötigt, um Benutzer- und Gruppenbesitz beizubehalten.
 * `-avzH`: Optionen für `rsync` (Archivmodus, verbose, Komprimierung, Hardlinks).
@@ -24,6 +27,9 @@ sudo rsync -avzH -e "ssh" /quellverzeichnis/ benutzer@entfernter_server:/zielver
 
 * Um ein Restore von einem anderen PC durchzuführen, kehre die Quell- und Zielverzeichnisse um:
 
+```bash
+sudo rsync -avzH -e "ssh" benutzer@entfernter_server:/zielverzeichnis/ /ursprüngliches_quellverzeichnis/
+```
 ```bash
 sudo rsync -avzH -e "ssh" benutzer@entfernter_server:/zielverzeichnis/ /ursprüngliches_quellverzeichnis/
 ```
