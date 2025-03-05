@@ -13,3 +13,6 @@ curl -s https://raw.githubusercontent.com/MasterOfBlindfish/install-scrpts/refs/
 ```
 
 curl -s <URL> | sh
+
+### Backup rsync
+https://github.com/MasterOfBlindfish/install-scrpts/blob/main/New-Backup/rsync.md
