@@ -11,7 +11,7 @@ Absolut! Hier ist eine umfassende Anleitung, wie du Linux-Ordner und -Dateien al
         ```
         sudo dd if=/pfad/zum/ordner of=ordner.img bs=4M
         ```
-         Bash
+        Bash
         
         ```
         sudo dd if=/pfad/zum/ordner of=ordner.img bs=4M
@@ -55,7 +55,7 @@ Absolut! Hier ist eine umfassende Anleitung, wie du Linux-Ordner und -Dateien al
         ```
         sudo dd if=ordner.img of=/pfad/zum/wiederherstellungsort
         ```
-                Bash
+        Bash
         
         ```
         sudo dd if=ordner.img of=/pfad/zum/wiederherstellungsort
@@ -109,7 +109,7 @@ Absolut! Hier ist eine umfassende Anleitung, wie du Linux-Ordner und -Dateien al
         ```
         sudo chmod -R 755 /pfad/zum/wiederhergestellten/ordner
         ```
-         Bash
+        Bash
         
         ```
         sudo chmod -R 755 /pfad/zum/wiederhergestellten/ordner
