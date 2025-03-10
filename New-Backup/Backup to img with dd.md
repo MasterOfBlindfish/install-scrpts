@@ -14,7 +14,7 @@ Absolut! Hier ist eine umfassende Anleitung, wie du Linux-Ordner und -Dateien al
         Bash
         
         ```
-        sudo dd if=/pfad/zum/ordner of=ordner.img bs=4M
+        sudo dd if=/home/mfrank/ of=/home/var-data/xfce-backup.img bs=4M
         ```
         
         - Ersetzen `/pfad/zum/ordner` durch den tatsächlichen Pfad zu dem Ordner, den du sichern möchtest.
