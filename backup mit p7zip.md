@@ -13,6 +13,7 @@ Absolut! Hier ist eine Anleitung, wie du deine Benutzerordner unter Linux mit p7
     * Navigiere im Terminal zu dem Verzeichnis, in dem du die Sicherung speichern möchtest.
     * Führe den folgenden Befehl aus, um den Benutzerordner zu sichern:
         * `7z a benutzer_backup.7z /home/BENUTZERNAME`
+        * `7z a xfce_backup_mfrank.7z /home/mfrank`
             * Ersetze `BENUTZERNAME` durch den tatsächlichen Benutzernamen.
             * `benutzer_backup.7z` ist der Name der Archivdatei. Du kannst einen beliebigen Namen wählen.
             * Der Befehl `7z a` erstellt ein neues 7z-Archiv.
@@ -32,6 +33,7 @@ Absolut! Hier ist eine Anleitung, wie du deine Benutzerordner unter Linux mit p7
     * Navigiere im Terminal zu dem Verzeichnis, in dem sich die Archivdatei befindet.
     * Führe den folgenden Befehl aus, um den Benutzerordner wiederherzustellen:
         * `7z x benutzer_backup.7z`
+        * `7z x xfce_backup_mfrank.7z`
             * `7z x` extrahiert die Dateien aus dem Archiv.
             * Wenn das Archiv passwortgeschützt ist, wirst du zur Eingabe des Passworts aufgefordert.
     * Standardmäßig werden die Dateien in das aktuelle Verzeichnis extrahiert. Wenn du sie in den ursprünglichen Benutzerordner wiederherstellen möchtest, stelle sicher, dass du dich im übergeordneten Verzeichnis des Benutzerordners befindest (z.B. `/home`).
