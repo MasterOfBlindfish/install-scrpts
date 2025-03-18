@@ -1,12 +1,14 @@
+Here’s your CMS Install Script for Cloud Systems as a Markdown guide:
+
+
 # CMS Install Script for Cloud Systems
 
 ## General Setup Instructions
-
 Below are multiple scripts designed to configure and set up various cloud-related systems efficiently. Each section includes instructions on how to use the provided scripts.
 
 ---
 
-### CMS / Install Script Cloud
+## CMS / Install Script Cloud
 
 ```bash
 #!/bin/bash
@@ -29,7 +31,7 @@ sudo apt-get install language-pack-kde-de -y
 echo 'dietpi ALL=(ALL) NOPASSWD:ALL' | sudo tee -a /etc/sudoers
 ```
 
-#### Instructions to Run the Script
+### Instructions to Run the Script
 1. Copy the entire script.
 2. In the SSH window, type: `nano buildscript.sh`.
 3. Paste the script into the editor (use `SHIFT+INSERT`).
@@ -39,7 +41,7 @@ echo 'dietpi ALL=(ALL) NOPASSWD:ALL' | sudo tee -a /etc/sudoers
 
 ---
 
-### Tools Installation
+## Tools Installation
 
 ```bash
 #!/bin/bash
@@ -61,7 +63,7 @@ sudo passwd root
 sudo passwd dietpi
 ```
 
-#### Instructions to Run the Script
+### Instructions to Run the Script
 1. Copy the entire script.
 2. In the SSH window, type: `nano buildscript.sh`.
 3. Paste the script into the editor (use `SHIFT+INSERT`).
@@ -71,7 +73,7 @@ sudo passwd dietpi
 
 ---
 
-### Tailscale Setup
+## Tailscale Setup
 
 ```bash
 #!/bin/bash
@@ -95,7 +97,7 @@ echo "Starting Tailscale..."
 tailscale up --accept-dns=false
 ```
 
-#### Instructions to Run the Script
+### Instructions to Run the Script
 1. Copy the entire script.
 2. In the SSH window, type: `nano buildscript.sh`.
 3. Paste the script into the editor (use `SHIFT+INSERT`).
@@ -105,7 +107,7 @@ tailscale up --accept-dns=false
 
 ---
 
-### Desktop and Ports Configuration
+## Desktop and Ports Configuration
 
 ```bash
 #!/bin/bash
@@ -151,7 +153,7 @@ sudo passwd dietpi
 sudo reboot
 ```
 
-#### Instructions to Run the Script
+### Instructions to Run the Script
 1. Copy the entire script.
 2. In the SSH window, type: `nano buildscript.sh`.
 3. Paste the script into the editor (use `SHIFT+INSERT`).
@@ -161,8 +163,7 @@ sudo reboot
 
 ---
 
-### Additional Desktop Installation
-
+### Additional Desktop Installation Commands
 ```bash
 sudo apt install tasksel
 sudo tasksel
