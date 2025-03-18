@@ -51,12 +51,13 @@ function run-cmd () {
 
 sudo apt-get install xrdp -y
 sudo apt-get install htop -y
-sudo apt-get install stacer -y
-sudo apt-get install gedit -y
+sudo apt-get install p7zip-full -y
+# sudo apt-get install stacer -y
+# sudo apt-get install gedit -y
 
 # Passwörter setzen
-sudo passwd root
-sudo passwd dietpi
+# sudo passwd root
+# sudo passwd dietpi
 ```
 
 ### Anweisungen zur Ausführung
