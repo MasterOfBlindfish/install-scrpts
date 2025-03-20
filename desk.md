@@ -1,9 +1,9 @@
 
-<p>How to Install and Configure xrdp on debian 12 bookworm
-</p>
+How to Install and Configure xrdp on debian 12 bookworm
+<br>
 
-<p>#opcacore.com
-</p>
+#opcacore.com
+<br>
 
 ---
 
