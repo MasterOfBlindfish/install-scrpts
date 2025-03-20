@@ -28,6 +28,8 @@ sudo apt-get upgrade -y
 
 ---
 
+Install Desktop Environment
+
 ``` bash
 sudo apt-get install curl xfce4 xfce4-goodies xrdp 7z-full-y
 #sudo curl -fsSL https://tailscale.com/install.sh | sh
