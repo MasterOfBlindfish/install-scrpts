@@ -8,6 +8,7 @@ sudo apt-get install xrdp -y
 sudo adduser xrdp ssl-cert
 sudo adduser dietpi ssl-cert
 sudo systemctl xrdp status
+sudo rm /usr/share/polkit-1/actions/org.freedesktop.color.policy
 /etc/init.d/xrdp status
 /etc/init.d/xrdp restart
 exit
