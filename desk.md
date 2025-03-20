@@ -32,8 +32,14 @@ Install Desktop Environment
 
 ``` bash
 sudo apt-get install curl xfce4 xfce4-goodies xrdp 7z-full-y
+
 #sudo curl -fsSL https://tailscale.com/install.sh | sh
+
 #sudo apt-get install language-pack-kde-de -y
+
+sudo apt-get install language-pack-de -y
+
 sudo rm /usr/share/polkit-1/actions/org.freedesktop.color.policy
+
 ```
 
