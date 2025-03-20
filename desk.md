@@ -61,7 +61,6 @@ To extract `.7z` files on a Debian-based system, you can use the `p7zip` package
    ls
    ```
 
-Let me know if you need further assistance! 😊
 
 <br>
 
