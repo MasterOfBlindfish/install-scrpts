@@ -4,8 +4,10 @@ How to Install and Configure xrdp on debian 12 bookworm
 
 #!/bin/bash
 
+``` bash
 adduser dietpi
 usermod -aG sudo dietpi
+```
 
 Grant sudo without password
 echo 'dietpi ALL=(ALL) NOPASSWD:ALL' | sudo tee -a /etc/sudoers
